@@ -1,0 +1,96 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy – Safe Organizer</title>
+    <style>
+        :root{--fg:#111;--muted:#555;--bg:#fff;--card:#fff;--link:#2b6cb0}
+        @media (prefers-color-scheme: dark){:root{--fg:#eaeaea;--muted:#9aa0a6;--bg:#0f1113;--card:#121416;--link:#8ab4f8}}
+        body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu}
+        main{max-width:900px;margin:0 auto;padding:24px}
+        h1{font-size:1.8rem;margin:.4rem 0 1rem}
+        h2{font-size:1.2rem;margin:1.2rem 0 .4rem}
+        p,li{color:var(--fg)} small,.muted{color:var(--muted)}
+        .card{background:var(--card);border:1px solid rgba(127,127,127,.2);border-radius:14px;padding:16px}
+        a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+        code{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.95em}
+    </style>
+</head><body><main>
+
+    <h1>Privacy Policy</h1>
+    <p class="muted">
+        Effective date: 23 Sep 2025 · App: <strong>Safe Organizer</strong><br>
+        Contact: <a href="mailto:safeorganizer8@gmail.com">safeorganizer8@gmail.com</a>
+    </p>
+
+    <div class="card">
+        <h2>At a glance</h2>
+        <ul>
+            <li><strong>No account. No servers. No analytics. No ads.</strong></li>
+            <li><strong>We do not collect, share, or sell personal data.</strong></li>
+            <li><strong>All data is stored locally on your device.</strong> System/cloud backups controlled by your OS may copy app data if you enabled them.</li>
+            <li><strong>Vault security:</strong> AES-256-GCM; key derived from your master password via PBKDF2-HMAC-SHA256 (100,000 iterations; 16-byte random salt). We never know or store your master password.</li>
+        </ul>
+    </div>
+
+    <h2>Scope</h2>
+    <p>This Policy describes on-device processing performed by the app. We operate without back-end servers and do not receive or transmit your data.</p>
+
+    <h2>Data we <em>do not</em> collect</h2>
+    <ul>
+        <li>No personal identifiers (such as name, email, device ID) are collected by us.</li>
+        <li>No usage analytics, crash analytics, advertising SDKs, or trackers.</li>
+        <li>No access to location, contacts, photos, microphone, or camera.</li>
+    </ul>
+
+    <h2>Data processed on device</h2>
+    <ul>
+        <li><strong>Vault items:</strong> service name, login, and the <em>encrypted</em> password. Passwords are encrypted locally with AES-256-GCM. The encryption key is derived from your master password using PBKDF2-HMAC-SHA256 (100,000 iterations; 16-byte salt). The master password is <strong>never stored</strong> and cannot be recovered by us.</li>
+        <li><strong>Other modules:</strong> notes, ideas, shopping list, books, movies, tasks, journal, habits, and birthdays are stored as regular app data inside the OS sandbox on your device.</li>
+    </ul>
+
+    <h2>Purposes of processing</h2>
+    <ul>
+        <li>Provide core app functionality (notes, lists, journal, habits, birthdays).</li>
+        <li>Securely store your Vault secrets <em>on device</em>.</li>
+    </ul>
+
+    <h2>Permissions & platform APIs</h2>
+    <ul>
+        <li><strong>No special permissions are required.</strong> The app is fully functional offline and does not send data to any server.</li>
+        <li>The app does not use system notifications, exact alarms, background networking, or similar platform services.</li>
+    </ul>
+
+    <h2>Security practices</h2>
+    <ul>
+        <li><strong>Vault crypto:</strong> AES-256-GCM; key via PBKDF2-HMAC-SHA256 (100,000 iterations; 16-byte random salt). If you forget your master password, <strong>we cannot recover</strong> your Vault.</li>
+        <li><strong>Auto-lock:</strong> the in-memory key is cleared and the Vault locks when the app goes to background or becomes inactive.</li>
+        <li><strong>Clipboard hygiene:</strong> when you copy a password, the app attempts to clear it from the clipboard after ~60 seconds (if unchanged). Other apps or the OS may still access the clipboard at their discretion.</li>
+        <li><strong>OS protections:</strong> non-Vault data relies on the operating system sandbox, device encryption, and your screen lock/biometrics.</li>
+    </ul>
+
+    <h2>Data retention & deletion</h2>
+    <p>Your data remains on your device until you delete it or uninstall the app.</p>
+    <ul>
+        <li><strong>In-app:</strong> delete entries directly (e.g., Vault items, notes, habits, birthdays).</li>
+        <li><strong>Clear all app data:</strong> on Android, see <em>Settings → Apps → Safe Organizer → Storage → Clear data</em>.</li>
+        <li><strong>Uninstall:</strong> removes local app data stored in the app sandbox.</li>
+        <li><strong>Backups:</strong> if OS/cloud backups are enabled, manage or delete them via your OS/cloud provider.</li>
+    </ul>
+
+    <h2>Data sharing & transfers</h2>
+    <p>We do not share data with third parties and do not transfer data internationally. Open-source libraries are used locally within the app only; they do not send your data to external services.</p>
+
+    <h2>Children’s privacy</h2>
+    <p>The app is not directed to children under 13. We do not knowingly collect personal information from children.</p>
+
+    <h2>Your choices & rights</h2>
+    <p>You can view, edit, and delete your data within the app at any time, or uninstall the app. For questions, contact <a href="mailto:safeorganizer8@gmail.com">safeorganizer8@gmail.com</a>.</p>
+
+    <h2>Changes to this Policy</h2>
+    <p>We may update this Policy as the app evolves. We will revise the “Effective date” above and publish the updated version in the app. Continued use after changes indicates acceptance.</p>
+
+    <hr>
+    <small class="muted">
+        Cryptography details are provided for transparency and do not guarantee absolute security. Keep your device secure and never share your master password.
+    </small>
+
+</main></body></html>
