@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Terms of Use – Safe Organizer</title>
+    <style>
+        :root{--fg:#111;--muted:#555;--bg:#fff;--card:#fff;--link:#2b6cb0}
+        @media (prefers-color-scheme: dark){:root{--fg:#eaeaea;--muted:#9aa0a6;--bg:#0f1113;--card:#121416;--link:#8ab4f8}}
+        body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu}
+        main{max-width:900px;margin:0 auto;padding:24px}
+        h1{font-size:1.8rem;margin:.4rem 0 1rem}
+        h2{font-size:1.2rem;margin:1.2rem 0 .4rem}
+        p,li{color:var(--fg)} small,.muted{color:var(--muted)}
+        .card{background:var(--card);border:1px solid rgba(127,127,127,.2);border-radius:14px;padding:16px}
+    </style>
+</head><body><main>
+
+    <h1>Terms of Use</h1>
+    <p class="muted">
+        Effective date: 21 Sep 2025 · App: <strong>Safe Organizer</strong><br>
+        Contact: <a href="mailto:safeorganizer8@gmail.com">safeorganizer8@gmail.com</a>
+    </p>
+
+    <h2>License</h2>
+    <p>You are granted a personal, limited, non-exclusive, non-transferable license to install and use Safe Organizer on your own devices for private, non-commercial purposes only.</p>
+
+    <h2>Account & Data</h2>
+    <p>The app does not require or create a user account. All data is stored locally on your device. We do not collect, store, or transfer your information to our servers.</p>
+
+    <h2>User Responsibilities</h2>
+    <ul>
+        <li>You are responsible for using the app in a lawful manner.</li>
+        <li>You must keep your device secure (PIN, biometrics, OS updates).</li>
+        <li>You are responsible for protecting your <strong>master password</strong>. If you forget it, your Vault cannot be recovered by us.</li>
+        <li>You are responsible for backing up or deleting your data as needed (e.g., before device replacement).</li>
+        <li>Reverse engineering or tampering with the app is prohibited, except where allowed by law.</li>
+    </ul>
+
+    <h2>Privacy</h2>
+    <p>Your use of the app is also subject to our <a href="privacy_en.html">Privacy Policy</a>, which explains how data is handled locally on your device.</p>
+
+    <h2>Intellectual Property</h2>
+    <p>All rights in the app and its content belong to the developer of Safe Organizer, except for open-source components licensed by their respective authors.</p>
+
+    <h2>Disclaimer</h2>
+    <p>The app is provided on an “as available” basis. We strive for security and reliability but do not guarantee the app will be error-free or meet all personal requirements. Safe Organizer is <strong>not a substitute</strong> for professional services (e.g., legal, medical, financial).</p>
+
+    <h2>Limitation of Liability</h2>
+    <p>To the fullest extent permitted by applicable law, the developer of Safe Organizer shall not be liable for any indirect, incidental, or consequential damages. Any liability is limited to the amount you paid for the app (if any) during the 12 months before the claim.</p>
+
+    <h2>Changes</h2>
+    <p>We may update or improve the app and these Terms. If you continue to use the app after updates, it means you accept the new Terms. The “Effective date” above will always show the latest version.</p>
+
+    <h2>Governing Law</h2>
+    <p>These Terms are governed by the laws of your country of residence, unless mandatory local laws apply otherwise.</p>
+
+</main></body></html>
